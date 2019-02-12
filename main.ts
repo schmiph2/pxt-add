@@ -37,7 +37,7 @@ namespace IR {
     /**
      *  set the infrared LED pin.
      */
-    //% blockId=setIR_pin block="IR Sender an Pin %myPin" blockExternalInputs=false
+    //% blockId=setIR_pin block="Test123 %myPin" blockExternalInputs=false
     //% weight=90 blockGap=10
     //% myPin.fieldEditor="gridpicker" myPin.fieldOptions.columns=4
     //% myPin.fieldOptions.tooltips="false" myPin.fieldOptions.width="300"
