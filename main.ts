@@ -41,7 +41,7 @@ namespace IR {
     //% weight=90 blockGap=10
     //% myPin.fieldEditor="gridpicker" myPin.fieldOptions.columns=4
     //% myPin.fieldOptions.tooltips="false" myPin.fieldOptions.width="300"
-    export function setIR_pin(myPin: AnalogPin) {
+    export function setIR_pin123(myPin: AnalogPin) {
         irLed = myPin;
         pins.analogWritePin(irLed, 0);
         pins.analogSetPeriod(irLed, pwmPeriod);
